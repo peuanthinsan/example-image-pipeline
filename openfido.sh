@@ -12,8 +12,6 @@ echo "Creating tmp directory"
 mkdir -p $path_to_tmp_dir
 
 echo "Copying input files to tmp directory"
-cp -r $OPENFIDO_INPUT/* ./tmp
-
 cp -r . $OPENFIDO_OUTPUT
 
 mv $path_to_tmp_dir/* $OPENFIDO_OUTPUT  # or some but not all
