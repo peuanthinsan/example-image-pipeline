@@ -13,3 +13,5 @@ mkdir -p $path_to_tmp_dir
 
 echo "Copying input files to tmp directory"
 cp -r . $OPENFIDO_OUTPUT
+
+exit 1
