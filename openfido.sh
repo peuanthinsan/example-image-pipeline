@@ -11,5 +11,6 @@ ls $OPENFIDO_INPUT > $OPENFIDO_OUTPUT/inputfiles.txt
 
 echo "Copying input files directory"
 ls .
-cp -r . $OPENFIDO_OUTPUT
+mv holy-cross-15-min.png $OPENFIDO_OUTPUT
+mv holy-cross-60-min.png $OPENFIDO_OUTPUT
 
